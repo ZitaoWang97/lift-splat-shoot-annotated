@@ -18,7 +18,7 @@ from .tools import SimpleLoss, get_batch_iou, get_val_info
 def train(version,  # 数据集的版本
           dataroot='/data/nuscenes',  # 数据集路径
           nepochs=10000,  # 训练最大的epoch数
-          gpuid=1,  # gpu的序号
+          gpuid=0,  # gpu的序号
 
           H=900, W=1600,  # 图片大小
           resize_lim=(0.193, 0.225),  # resize的范围

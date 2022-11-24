@@ -141,3 +141,6 @@ hub/
 src/_pycache_/
 src/a.py
 src/b.py
+data/
+v1.0-mini.tgz
+nuScenes-map-expansion-v1.3.zip
